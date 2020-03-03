@@ -4,7 +4,7 @@ using Xunit;
 
 namespace ACM.BLTest
 {
-    public class UnitTest1
+    public class CustomerTest
     {
         [Fact]
         public void FullNameTestValid()
