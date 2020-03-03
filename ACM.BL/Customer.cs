@@ -35,13 +35,16 @@ namespace ACM.BL
             CustomerId = customerId;
         }
 
+        public Customer Retrieve(int customerId)
+        {
+            return new Customer();
+        }
 
+        public bool Save()
+        {
+            return true;
+        }
 
-
-        /// <summary>
-        /// Checks if what is given is true
-        /// </summary>
-        /// <returns></returns>
         public bool Validate()
         {
             var isValid = true;
