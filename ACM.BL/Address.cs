@@ -4,10 +4,10 @@ using System.Text;
 
 namespace ACM.BL
 {
-    class Address
+    public class Address
     {
         public int AddressId {get; private set; }
-        public string AddressType { get; set; }
+        public int AddressType { get; set; }
         public string StreetLine1 { get; set; }
         public string Streetline2 { get; set; }
         public string City { get; set; }

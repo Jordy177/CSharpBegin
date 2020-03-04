@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ACM.BL
 {
@@ -8,6 +9,7 @@ namespace ACM.BL
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
+        public List<Address> AddressList { get; set; }
 
         public string FullName
         {
