@@ -24,7 +24,7 @@ namespace ACM.BL
             return address;
         }
 
-        public IEnumerable<Address> RetrieveByCustomerID(int customerId)
+        public IEnumerable<Address> RetrieveByCustomerId(int customerId)
         {
             var addressList = new List<Address>();
             Address address = new Address(1)
